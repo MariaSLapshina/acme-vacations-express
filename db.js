@@ -1,5 +1,5 @@
 const fs = require('fs');
-const FILE = './vacay.json'
+
 
 module.exports = (FILE, validator) => {
   const writeJSON = (data)=> {
